@@ -1,6 +1,6 @@
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
-    font-weight: 700;
+    font-weight: normal;
     font-style: normal;
   }
   .nav title{
@@ -42,13 +42,40 @@
     border: none;
     border-radius: 8px;
 }
+.btn-third-card-F{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px; 
+    
+}
+.btn-third-card-S{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px; 
+    
+}
+.btn-third-card-T{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(255, 194, 57) ;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px; 
+    
+}
 .BD-first{
     font-weight: 500;
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
 
 }
-.container{
+.container, .three-cards {
     box-sizing: border-box;
     border-radius: 16px;
     display: flex;
@@ -61,9 +88,11 @@
 
 
 }
-.TSD{
+.Pillars-heading, .second-card-heading{
     margin-left: 160px;
-    margin-bottom: 70px;
+    margin-bottom: 32px;
+    font-weight:bold;
+    font-size: 40px;
 }
 .phillars-descriptions{
     font-weight: 400;
@@ -74,9 +103,215 @@
 .phillars-title{
     color: #0E0E0E;
 }
-.phillars{
+.phillars,{
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+.second-card-heading-description{
+    display: flex;
+    margin-left: 160px;
+    width: 1280px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7); 
+}
+.box-three-dp{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);   
+}
+.three-cards{
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+}
+.card-three-box-one{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px 32px 32px 32px;
+    gap: 24px;
+}
+.card-three-box-two{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px 32px 32px 32px;
+    gap: 24px;
+}
+.card-three-box-three{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px 32px 32px 32px;
+    gap: 24px;
+}
+.three-cards{
+    align-items: center;
+}
+.news-h-d{
+    /* margin-left: 150px; */
+    margin-bottom: 32px;
+    font-weight:bold;
+    font-size: 40px;
+    
+}
+.news-description{
+    display: flex;
+    margin-left: 160px;
+    width: 1280px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-header{
+    margin-left: 160px;
+}
+.satelite{
+    display: flex;
+    margin: 32px 160px 32px 160px;
+    gap: 32px;
+    padding: 48px;
+}
+.news-satelite{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sateliet-btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 106, 80);
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;   
+}
+.satelite{
+    box-sizing: border-box;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    box-shadow: 6px 6px 50px 6px rgba(0, 0, 0, 0.06);
+}
+.satelite-img{
+    padding: 6px;
+    border-radius: 32px;
+    margin
+    
+}
+.dr-yunus{
+    margin: 32px 160px 80px 160px;
+    box-sizing: border-box;
+    padding:48px 24px 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+  
+}
+.footer-l, .footer-ll{
+    display: flex;
+    justify-content: center;
+}
+.footer-ll{
+    display: flex;
+    gap: 23px;
+}
+.footer-div{
+    background: rgb(255, 255, 255);
+    padding: 50px 160px 50px 160px;
+
+}
+.donate-text{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.donate-decription{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin:24px 248px 32px 248px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;   
+}
+.amount-same{
+    box-sizing: border-box;
+    width: 240px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.amount-d{
+    box-sizing: border-box;
+    width: 240px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.other-amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1032px;
+    height: 64px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    margin:32px 284px 32px 284px ;
+
+}
+.donate-btn{
+    margin: 32px 724.5px 32px 724.5px;
+    display: flex;   
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 106, 80);
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;
+
+}
+.dr-yunus-bg{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+
